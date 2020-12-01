@@ -1,0 +1,60 @@
+:root {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Navigation  */
+nav {
+    color: #000;
+}
+
+nav a {
+    text-decoration: none;
+    /* rem (root element)
+    The size here will stay relative to the font-size on the root element.
+    Even if we go and change our font-size, everything will stay proportional.
+    */
+    font-size: .8rem;  /* 1rem * 18px (root font-size) = 18px */
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+/* Searchbar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 50%;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    background-color: transparent;
+    border: none;
+}
