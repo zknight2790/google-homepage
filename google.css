@@ -1,6 +1,6 @@
 :root {
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 li {
@@ -9,7 +9,7 @@ li {
 
 /* Navigation  */
 nav {
-    color: #000;
+    color: rgb(151, 148, 148);
 }
 
 nav a {
@@ -57,4 +57,24 @@ nav a {
 .search-bar input {
     background-color: transparent;
     border: none;
+}
+.button {
+    border: 1px;
+    color: grey;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 228, 228);
+    line-height: 5px;
+    min-width: 980px;
+    border-top: 1px solid grey;
 }
